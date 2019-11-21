@@ -1,0 +1,182 @@
+@font-face {
+    font-family: PT_Sans; /* Имя шрифта */
+    src: url(fonts/PT_Sans-Web-BoldItalic.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/PT_Sans-Web-Italic.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/PT_Sans-Web-Bold.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/PT_Sans-Web-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: PT_Sans;
+    color: #010101;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: #010101;
+}
+
+#wrap{
+    margin: 0 auto;
+    /*width: 1400px;*/
+}
+
+.head, .cont, .foot{
+    margin: 0 auto;
+    width: 940px;
+    padding: 0 10px;
+}
+
+/*header of the site*/
+#header{
+    height: 650px;
+    background: #fcdb00;
+    padding-top: 52px;
+}
+
+.top{
+    height: 43px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    margin: -9px 0 0 0;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 20px;
+}
+
+.menu a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 30px 0 0;
+}
+
+.slider-text{
+    width: 500px;
+}
+
+.slider-text img{
+    margin-right: 40px;
+}
+
+/*central place of the site*/
+#content{
+    min-height: 650px;
+}
+
+.cont{
+    padding: 50px 0 0 0;
+}
+
+.page-cont{
+    text-align: center;
+}
+
+.post-list{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-item{
+    display: flex;
+    width: 310px;
+}
+
+.post-item-icon{
+    padding: 22px 15px;
+}
+
+/*footer place of the site*/
+#footer{
+    height: 650px;
+    background: #010101;
+    color: #fff;
+}
+
+#footer a{
+    color: #fff;
+}
+
+.foo-form {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.foo-form h2{
+    color: #fcdb00;
+}
+
+.foo-form input[type=submit]{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    background: #fcdb00;
+    font-weight: bold;
+}
+
+.foo-form input[type=text]{
+    height: 50px;
+    width: 580px;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+.foo-social{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.foo-social img{
+    margin-right: 20px;
+}
+
+.foo{
+    display: flex;
+    margin: 100px 0 0 0;
+}
+
+.foo div{
+    margin-right: 100px;
+}
+
+.foo li{
+    list-style-type: none;
+}
+
+.foo-menu{
+    display: flex;
+}
+
+© 2019 GitHub, Inc.
